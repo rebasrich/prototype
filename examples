@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "id": "1",
+      "title": "Freshwater",
+      "isbn": "9780802127358"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "id": "2",
+      "title": "The House in the Cerulean Sea",
+      "isbn": "9781250217318"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "id": "3",
+      "title": "Tomorrow and Tomorrow and Tomorrow",
+      "isbn": "9780593321201"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "reviewer 1",
+      "description": "one-star, what even was that",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "reviewer 2",
+      "description": "five-star, rocks my socks",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "Book Reviews API",
+    "creator": "rebasrich",
+    "about": "Some books that have been read and reviewed,
+    "url": "https://linktr.ee/guerrillabooks"
+  }
+}
