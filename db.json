@@ -45,7 +45,7 @@
     "@type": "Collection",
     "name": "Book Reviews API",
     "creator": "rebasrich",
-    "about": "Some books that have been read and reviewed"
+    "about": "Some books that have been read and reviewed",
     "url": "https://linktr.ee/guerrillabooks"
   }
 }
